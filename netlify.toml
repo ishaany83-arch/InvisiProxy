@@ -1,0 +1,3 @@
+[build]
+  command = "cd lib/rammerhead && npm install && cd ../.. && npm run build"
+  publish = "views/dist"
